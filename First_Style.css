@@ -1,0 +1,23 @@
+h1{color:brown}
+h1:hover{color : Red}
+p{color:red}
+#p-1{color : Yellow;
+    background : Red}
+#l-1{color : green}
+#One{background : Pink}
+
+.makeRed{background :Black;
+          font-siz : 10  }
+
+.olClass {color : Magenta}
+
+a:link {color : blue}
+a:visited {color : Orange}
+
+table,th,td{border:1px solid black; padding:15px;
+background : grey
+}
+
+td {text-align:right;
+    vertical-align:top;
+    color : Orange}

@@ -1,0 +1,126 @@
+<Html>
+<!--This is my First Page -->
+<Head>
+    <title>First Html Page</title>
+    <meta name="author" content="Yash Jain">
+    <link href="First_Style.css" rel="stylesheet" type="text/css">
+</Head>
+
+<body>
+<h1>THE FIRST PAGE</h1>
+<section id="One">
+    <p id="p-1">Making a List</p>
+    <!-- Unordered list -->
+    <ul>
+        <li><i>Apples</i></li>
+    <li><b>Orange</b></li>
+        <li><em>Bananna is good </em>Bananna</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol type="A" reversed>
+        <li id="l-1"><strong>First</strong>Apple</li>
+        <li><small>Second</small>Orange</li>
+        <li><mark>Third </mark>Bananna</li>
+        <li><sub>1</sub>Conditions apply<sup>*</sup></li>
+    </ol>
+
+    <ol class="olClass" type="A" reversed>
+        <li><strong>First</strong>Apple</li>
+        <li><small>Second</small>Orange</li>
+        <li><mark>Third </mark>Bananna</li>
+        <li><sub>1</sub>Conditions apply<sup>*</sup></li>
+    </ol>
+
+
+    <p><sup>*</sup>The name is Yash</p>
+
+    <p class="makeRed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor arcu ut venenatis hendrerit. Donec dictum, sapien in cursus varius, est lacus porttitor magna, non sagittis elit justo et dolor. Duis tempor metus ligula, a lacinia lectus iaculis nec. Vestibulum a diam eget orci aliquet consectetur. Vivamus hendrerit, magna vel commodo bibendum, nisi sapien consectetur libero, ac porta nisi justo sit amet mauris. Etiam scelerisque risus pellentesque, tincidunt arcu nec, feugiat ante. Etiam gravida ligula non turpis vestibulum convallis. Nunc finibus nisl et velit sollicitudin ornare. Suspendisse accumsan, dui eget condimentum consectetur, purus odio molestie risus, eget pellentesque nulla arcu facilisis velit. Integer nec mauris rutrum, rutrum velit nec, tincidunt erat. Vivamus dignissim congue sagittis.
+
+        Ut ut ex sed purus mattis gravida. Praesent fringilla enim quis turpis laoreet pellentesque. Aliquam erat volutpat. Cras pretium felis mi. Ut aliquam accumsan elit. Proin quis tortor sit amet quam malesuada molestie vitae tincidunt sapien. Praesent et dignissim lacus.
+
+        Quisque turpis ex, aliquam eu semper id, luctus porttitor nunc. Mauris a lacus in purus hendrerit cursus. Curabitur est urna, feugiat facilisis massa vitae, egestas dignissim risus. Quisque consectetur vitae mauris eget tincidunt. Vestibulum eget porttitor turpis. Praesent id rhoncus ligula, a feugiat enim. Donec at hendrerit elit. Ut mollis lectus quis sapien posuere porttitor. Maecenas tincidunt pellentesque velit venenatis rutrum. Suspendisse potenti. Aenean ultrices sodales fermentum. Mauris ac sapien vel urna malesuada tristique. Curabitur ultricies consequat posuere. Cras at placerat sem.
+
+        Vestibulum sed arcu consectetur, venenatis felis nec, congue justo. Ut sed augue a elit gravida vehicula vel sit amet orci. Donec non arcu in velit gravida auctor quis nec nunc. Nam nisl purus, placerat a sapien vel, efficitur lobortis ipsum. Curabitur ac tortor in quam accumsan tincidunt. Aenean sed iaculis odio, sed cursus dui. Cras fermentum arcu rhoncus consequat interdum. Ut quis sem dictum, ornare odio ac, facilisis lorem. Cras convallis sit amet ex non vehicula. Sed nec ex mi. Ut quis egestas nibh. Suspendisse vestibulum, lectus eu vehicula varius, ipsum velit vulputate ex, nec tristique velit massa eu felis.
+
+        Curabitur ac ex at orci vehicula suscipit. Aliquam id pellentesque tellus. Sed imperdiet convallis turpis, vel vestibulum eros interdum a. Nulla id augue ultricies, elementum enim id, luctus erat. Suspendisse elit eros, semper nec placerat at, sodales ut lectus. Sed ac massa efficitur massa imperdiet malesuada. Nunc ac pretium arcu. Duis scelerisque lacus eget massa facilisis, nec pharetra turpis posuere. Vivamus ac felis tortor. Sed enim dolor, sagittis eu gravida et, consequat vitae lorem. Etiam semper nunc quis lobortis interdum. Maecenas interdum pharetra faucibus. Morbi varius tincidunt auctor. Donec vestibulum nulla a nulla venenatis convallis.</p>
+</section>
+
+<section id="Section2">
+    <div id="Sec1-Div-1">
+        <table class="table-1">
+            <thead>
+            <tr><th>Sr.No</th><th>Column A</th><th>Column B</th></tr>
+            </thead>
+
+            <tbody>
+            <tr><td>1</td><td>Value 1A</td><td>Value 1B</td></tr>
+            <tr><td>2</td><td>Value 2A</td><td>Value 2B</td></tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+
+
+
+<section id="Section-3">
+<form action="destination" method="get">
+    <p>My First Form</p>
+
+    <label for="FirstName">FirstName:</label>
+    <input type="text" id="FirstName" name="firstName" placeholder="First Name" autofocus>
+    <br>
+    <label for="LastName">Last Name:</label>
+    <input type="text" id="LastName" name="lastName" placeholder="LastName">
+    <br>
+    <label for="Age">Age</label>
+    <input type="text" id="Age" name="age" datatype="int" required>
+    <br>
+    <input type="submit" value="Submit!">
+</form>
+
+
+
+    <form action="destination" method="post" enctype="multipart/form-data">
+        <label for="FileUpload">Choose</label>
+        <input type="file" id="FileUpload" name="uploadedFile">
+        <br>
+        <input type="submit" value="Upload">
+
+    </form>
+
+
+
+    <form action="destination" method="post">
+        <fieldset>
+        <legend>Info</legend>
+        <label>Age</label>
+        <input type="number" min="0" max="99" name="age">
+        <br>
+        <label>Date</label>
+        <input type="date" name="date">
+            </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Numbers</legend>
+        <label>Time</label>
+        <input type="time" name="time">
+        <br>
+        <label>Color</label>
+        <input type="color" name="color">
+        <br>
+        <label>Slider</label>
+        Zero<input type="range" min="0" max="100" step="5" value="50" name="range">Hundred
+            </fieldset>
+    </form>
+</section>
+<a href="#One">Got To Section1</a>
+
+
+</body>
+</Html>
